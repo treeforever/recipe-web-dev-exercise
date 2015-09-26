@@ -1,0 +1,45 @@
+.hover:hover {
+	color: green;
+}
+
+#img2 {
+	background-color: grey;
+}
+
+#img3 {
+	background-color: grey;
+}
+
+img#recipePhoto {
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+ul#ingredients-list
+{
+	list-style-type: none;
+}
+
+ul#ingredients-list li {
+	margin-left: -30px;
+}
+
+ul#picture-list li {
+	list-style-type: none;
+	display: inline-block;
+	width: 180px;
+	vertical-align: text-top;
+	text-align: center;
+}
+
+ol#directions-list li {
+	padding-left: 25px;
+	text-indent: -25px;
+	list-style-type: none;
+	margin-left: -30px;
+	margin-bottom: 15px;
+}
+ol#directions-list li input[type=radio]{
+	margin-right: 10px;
+}
