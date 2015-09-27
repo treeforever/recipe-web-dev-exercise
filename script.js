@@ -42,4 +42,16 @@ $(document).ready(function() {
     }
     $('#step-reminder').text(progressMessage);
   });
+
+  $('button#hide-photos').click(function(){
+    $('img').hide();
+    $('button#hide-photos').hide();
+    $('button#show-photos').show();
+  });
+
+  $('button#show-photos').click(function(){
+    $('img').show();
+    $('button#show-photos').hide();
+    $('button#hide-photos').show();
+  })
 });

@@ -47,3 +47,11 @@ ol#directions-list li input[type=radio]{
 div#headline {
 	display: inline;
 }
+
+button.photo-operation {
+	margin-bottom: 30px;
+}
+
+button#show-photos {
+	display: none;
+}
