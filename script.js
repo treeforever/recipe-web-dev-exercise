@@ -28,4 +28,18 @@ $(document).ready(function() {
     }
     $('#ingredient-counter').text(ingredientCounterMessage);
   });
+
+
+  $('ol#directions-list li').click(function(){
+    var numStep = $('ol#directions-list input[type=radio]:checked').val();
+
+    var progressMessage;
+    if(numStep<3){
+      progressMessage = 'You are at step ' + numStep + '.';
+    }
+    else {
+      progressMessage = 'Congratulations! You are just one last step away from a tasty dish!'
+    }
+    $('#step-reminder').text(progressMessage);
+  });
 });

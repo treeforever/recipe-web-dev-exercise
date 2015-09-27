@@ -43,3 +43,7 @@ ol#directions-list li {
 ol#directions-list li input[type=radio]{
 	margin-right: 10px;
 }
+
+div#headline {
+	display: inline;
+}
